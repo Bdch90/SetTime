@@ -32,6 +32,7 @@ public class SetTime {
         System.out.println(stopWatch.getStopDate());
         long stop = stopWatch.getStopTime();
         stopWatch.getStopTime();
+        System.out.println(stopWatch.getStopDate());
         System.out.println(stop-start);
     }
 }
